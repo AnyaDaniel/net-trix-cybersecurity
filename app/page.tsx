@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <main>
       <h1>NET TRIX CYBERSECURITY</h1>
+      <p>PAGE UNDER CONSTRUCTION</p>
     </main>
   )
 }
