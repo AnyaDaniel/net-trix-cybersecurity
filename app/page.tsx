@@ -1,11 +1,11 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Hero from '@/components/main/Hero'
 
 export default function Home() {
   return (
-    <main>
-      <h1>NET TRIX CYBERSECURITY</h1>
-      <p>PAGE UNDER CONSTRUCTION</p>
+    <main className='h-full w-full' >
+      <div className="flex flex-col h-[850px] gap-20">
+        <Hero />
+      </div>
     </main>
   )
 }
