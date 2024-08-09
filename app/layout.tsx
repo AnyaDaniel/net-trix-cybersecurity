@@ -1,6 +1,8 @@
+import StarsCanvas from '@/components/main/StarBackground'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Navbar from '@/components/main/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={'$(inter.className) bg-[#030014] overflow-y-scroll overflow-x-hidden'}>
+      <body className={'$(inter.className) bg-[#030014]  overflow-x-hidden'}>
+        <StarsCanvas />
+        <Navbar/>
         {children}</body>
     </html>
   )
