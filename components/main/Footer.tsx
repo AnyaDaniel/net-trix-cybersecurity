@@ -12,9 +12,9 @@ import {
 const Footer = () => {
   return (
     <div className='w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]'>
-        <div className="w-ful flex flex-col items-center justify center m-auto">
-            <div className="w-full h-full flex flex-row items-center justify-around flex--round">
-                <div className="min-w-[200px]h-auto flex flex-col items-center justify-start">
+        <div className="w-full flex flex-col items-center justify center m-auto">
+            <div className="w-full h-full flex items-center justify-around flex-wrap">
+                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Community</div>
                     <p className="flex flex-row items-center my-[16px] cursor-pointer">
                         <FaYoutube/>
@@ -29,7 +29,7 @@ const Footer = () => {
                         <span className='text-[15px] ml-[6px]'>Discord</span>
                     </p>
                 </div>
-                <div className="min-w-[200px]h-auto flex flex-col items-center justify-start">
+                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
                     <p className="flex flex-row items-center my-[16px] cursor-pointer">
                         <RxInstagramLogo/>
@@ -44,7 +44,7 @@ const Footer = () => {
                         <span className='text-[15px] ml-[6px]'>LinkedIn</span>
                     </p>
                 </div>
-                <div className="min-w-[200px]h-auto flex flex-col items-center justify-start">
+                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">About</div>
                     <p className="flex flex-row items-center my-[16px] cursor-pointer">
                         

@@ -65,3 +65,9 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* caorusel styling */
+.carousel-container {
+    perspective: 450px;
+    transform-style: preserve-3d;
+  }

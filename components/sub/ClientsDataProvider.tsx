@@ -12,7 +12,7 @@ interface Props {
   index: number;
 }
 
-const SkillDataProvider = ({ src, width, height, index }: Props) => {
+const ClientsDataProvider = ({ src, width, height, index }: Props) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
   });
@@ -25,21 +25,17 @@ const SkillDataProvider = ({ src, width, height, index }: Props) => {
   const animationDelay = 0.3;
   return (
     <motion.div
-  ref={ref}
-  initial="hidden"
-  variants={imageVariants}
-  animate={inView ? "visible" : "hidden"}
-  custom={index}
-  transition={{delay: index * animationDelay}}
-  >
-    <Image
-src={src}
-width={width}
-height={height}
-alt='skill image'
-    />
-  </motion.div>
+      ref={ref}
+      initial="hidden"
+      variants={imageVariants}
+      animate={inView ? "visible" : "hidden"}
+      custom={index}
+      transition={{ delay: index * animationDelay }}
+    >
+      <Image src={src} width={width} height={height} alt="skill image" />
+    </motion.div>
+    
   );
 };
 
-export default SkillDataProvider;
+export default ClientsDataProvider;

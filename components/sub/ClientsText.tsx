@@ -8,8 +8,9 @@ import {
   slideInFromTop,
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
-const SkillText = () => {
+const ClientsText = () => {
   return (
     <div className="w-full h-auto flex flex-col items-center justify-center">
       <motion.div
@@ -21,9 +22,15 @@ const SkillText = () => {
       </motion.div>
       <motion.div
         variants={slideInFromLeft(0.5)}
+        className="flex items-center justify-center h-full/2 py-3"
+      >
+        <Image src='/clients.png' alt='clients' width={150} height={150} className=''/>
+        </motion.div>
+      <motion.div
+        variants={slideInFromLeft(0.5)}
         className="text-[30px] text-white font-mediun mt-[10px] mb-[15px] text-center"
       >
-        Taking security to the next level
+        Our Clients
       </motion.div>
       <motion.div
         variants={slideInFromRight(0.5)}
@@ -35,4 +42,4 @@ const SkillText = () => {
   );
 };
 
-export default SkillText;
+export default ClientsText;
