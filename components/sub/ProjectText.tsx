@@ -6,7 +6,7 @@ import { slideInFromLeft, slideInFromTop } from "@/utils/motion";
 
 const ProjectText = () => {
   return (
-    <div className="flex flex-wrap md:flex-row justify-center items-start md:px-20 px-4 py-20">
+    <div className="flex justify-center items-start md:px-20 px-4 py-20">
       <motion.div
         variants={slideInFromTop}
         className="flex flex-col gap-6 mt-6 mr-10 text-3xl text-white w-full h-auto"

@@ -37,7 +37,7 @@ export default function CarouselItem({ index, activeIndex, children }: CardProps
         transform: cssTransformProperties,
         opacity: cssOpacity,
         display: cssDisplay,
-        zIndex: `${scaled ? 1 : 10}`,
+        zIndex: `${scaled ? 100 : 1}`,
       }}
       onClick={() => {
         setScaled(!scaled);

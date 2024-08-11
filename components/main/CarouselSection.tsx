@@ -5,12 +5,13 @@ import Image from 'next/image';
 import Carousel from '../sub/Carousel';
 
 const imagesItems = [
-  <Image className="" width={1500} height={1000} src='/card1.svg' alt="teste" />,
-  <Image className="" width={1500} height={1000} src='/card2.svg' alt="teste" />,
-  <Image className="" width={1500} height={1000} src='/card3.svg' alt="teste" />,
-  <Image className="" width={1500} height={1000} src='/card4.svg' alt="teste" />,
-  <Image className="" width={1500} height={1000} src='/card1.svg' alt="teste" />,
+  { id: 1, component: <Image width={1500} height={1000} src='/card1.svg' alt="teste" /> },
+  { id: 2, component: <Image width={1500} height={1000} src='/card2.svg' alt="teste" /> },
+  { id: 3, component: <Image width={1500} height={1000} src='/card3.svg' alt="teste" /> },
+  { id: 4, component: <Image width={1500} height={1000} src='/card4.svg' alt="teste" /> },
+  { id: 5, component: <Image width={1500} height={1000} src='/card1.svg' alt="teste" /> }, // Duplicate component but unique ID
 ];
+
 
 const CarouselSection = () => {
   return (

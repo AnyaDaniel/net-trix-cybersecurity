@@ -16,7 +16,7 @@ export default function CarouselIndicator({
   const maxIndicator = length > maxIndicatorVisible ? maxIndicatorVisible : length;
 
   return (
-    <div className="absolute left-1/2 bottom-4 flex h-5 w-24 translate-x-1/2 transform items-center justify-center space-x-1 ">
+    <div className="flex h-5 w-24 translate-x-1/2 transform items-center justify-center space-x-1 ">
       {Array.from(Array(maxIndicator), (_, index) => {
         return (
           <div
