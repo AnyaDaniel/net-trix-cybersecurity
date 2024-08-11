@@ -20,7 +20,7 @@ export default function CarouselItem({ index, activeIndex, children }: CardProps
         scaleY(calc(1 +  ${absOffset}  * -0.5))
         translateX(calc( ${direction} * -3.5rem))
         translateZ(calc( ${absOffset} * -35rem))
-        scale(${scaled && index === activeIndex ? 6.5 : 1})
+        scale(${scaled && index === activeIndex ? 1 : 1})
        `;
 
   const cssOpacity = `
@@ -32,12 +32,12 @@ export default function CarouselItem({ index, activeIndex, children }: CardProps
 
   return (
     <div
-      className="absolute cursor-pointer overflow-hidden rounded-3xl drop-shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition-all duration-700 ease-in-out"
+      className="absolute overflow-hidden rounded-3xl drop-shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition-all duration-700 ease-in-out"
       style={{
         transform: cssTransformProperties,
         opacity: cssOpacity,
         display: cssDisplay,
-        zIndex: `${scaled ? 100 : 1}`,
+        zIndex: index ? 30 : 1,
       }}
       onClick={() => {
         setScaled(!scaled);

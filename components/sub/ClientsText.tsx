@@ -12,7 +12,7 @@ import Image from "next/image";
 
 const ClientsText = () => {
   return (
-    <div className="w-full h-auto flex flex-col items-center justify-center">
+    <div className="w-full h-auto flex flex-col items-center justify-center relative">
       <motion.div
         variants={slideInFromTop}
         className="welcome-box py-[8px] px-[7px] flex border boder-[#7042f88b] w-max"
