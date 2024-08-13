@@ -99,26 +99,26 @@ export const Skill_data = [
   
   export const First_client = [
     {
-      skill_name: "Html 5",
-      Image: "/html.png",
+      skill_name: "BlueChip",
+      Image: "/bluechip.png",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Css",
-      Image: "/css.png",
+      skill_name: "Ministry of Works",
+      Image: "/mow.png",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Java Script",
-      Image: "/js.png",
+      skill_name: "Great green Wall",
+      Image: "/ggw.png",
       width: 65,
       height: 65,
     },
     {
-      skill_name: "Tailwind Css",
-      Image: "/tailwind.png",
+      skill_name: "CyberSpace",
+      Image: "/cyberspace.png",
       width: 80,
       height: 80,
     },

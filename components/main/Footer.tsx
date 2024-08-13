@@ -6,10 +6,10 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
-      <div className="w-full flex flex-col items-center justify center m-auto relative">
-        <div className="w-full h-full flex items-center justify-around flex-wrap">
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start ">
+    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] relative z-[10]">
+      <div className="w-full flex flex-col items-center justify center m-auto ">
+        <div className="w-full h-full flex items-start justify-around flex-wrap">
+          <div className="min-w-[200px] h-auto flex flex-col justify-start ">
             <div className="font-bold text-[16px]">Quick Link</div>
             <p className="flex flex-row items-center my-[16px] cursor-pointer">
               <Link href="/about" className="text-[15px] ml-[6px]">

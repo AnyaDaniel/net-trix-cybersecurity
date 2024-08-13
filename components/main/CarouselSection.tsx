@@ -15,7 +15,7 @@ const imagesItems = [
 
 const CarouselSection = () => {
   return (
-    <div className="h-screen w-screen overflow-hidden bg-bg text-white flex flex-row items-center justify-center"><Carousel items={imagesItems} /></div>
+    <div className="h-screen w-screen overflow-hidden bg-bg text-white flex flex-row items-center justify-center z-[10]"><Carousel items={imagesItems} /></div>
   )
 }
 

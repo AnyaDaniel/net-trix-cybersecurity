@@ -9,12 +9,13 @@ const ProjectText = () => {
     <div className="flex flex-col justify-center items-start md:flex-row md:px-20 px-4 py-20 relative">
       <motion.div
         variants={slideInFromTop}
-        className="flex flex-col gap-6 mt-6 mr-10 text-3xl text-white w-full h-auto"
+        className="flex flex-col gap-6 mt-6 mr-10 text-5xl text-white w-full"
       >
-        <span className="text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-bold">
-          Upholding Client Trust:{" "}
+        Data Protection and
+        <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-bold">
+          {" "}CyberSecurity
         </span>
-        The Essence of Data Responsibility
+        
       </motion.div>
       <div className="px-5 w-full">
         <motion.p
@@ -28,6 +29,7 @@ const ProjectText = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 px-14 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          href="/about#services"
         >
           Learn More
         </motion.a>
