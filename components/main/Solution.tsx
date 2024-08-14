@@ -3,7 +3,7 @@
 import React from "react";
 import SolutionCard from "../sub/SolutionCard";
 import SolutionText from "../sub/SolutionText";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import { ParallaxLayer } from "@react-spring/parallax";
 
 interface Props {
   num: string;
@@ -15,12 +15,11 @@ const Solution = ({num}: Props) => {
       className="flex flex-col items-center justify-center py-20 z-[10] h-screen"
       id="projects"
     >
-      <Parallax pages={2.5}>
-        <ParallaxLayer offset={0} sticky={{ start: 0, end: 2.5 }}>
+        <ParallaxLayer>
           <SolutionText num={num} />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={0.2} speed={0.102} factor={2.2}>
+        <ParallaxLayer>
           <div className="h-full w-[50vw] px-10">
             <SolutionCard
               src="/os.png"
@@ -44,7 +43,6 @@ const Solution = ({num}: Props) => {
             />
           </div>
         </ParallaxLayer>
-      </Parallax>
     </div>
   );
 };

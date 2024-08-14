@@ -2,15 +2,14 @@
 
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import { ParallaxLayer } from "@react-spring/parallax";
 
 const ProjectParallax = () => {
 
   return (
     <div className="w-full h-[20vw]">
-      <Parallax pages={2} className="z-[10] md:flex-row gap-10">
+      <div className="z-[10] md:flex-row gap-10 ">
         <ParallaxLayer
-          sticky={{ start: 0.2, end: 2 }}
           className="w-full "
         >
           <ProjectCard
@@ -20,7 +19,7 @@ const ProjectParallax = () => {
             cls='overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-[30.6vw] md:ml-[2vw]'
           />
         </ParallaxLayer>
-        <ParallaxLayer sticky={{ start: 0.6, end: 2 }} className="w-full">
+        <ParallaxLayer  className="w-full">
           <ProjectCard
             src="/folder.png"
             title="Data Backup and Recovery"
@@ -29,7 +28,7 @@ const ProjectParallax = () => {
           />
         </ParallaxLayer>
         <ParallaxLayer
-          sticky={{ start: 1, end: 2 }} className="w-full"
+         className="w-full"
         >
           <ProjectCard
             src="/analyzer.png"
@@ -38,7 +37,7 @@ const ProjectParallax = () => {
             cls='overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-[30.6vw] md:ml-[67.2vw]'
           />
         </ParallaxLayer>
-      </Parallax>
+      </div>
     </div>
   );
 };
