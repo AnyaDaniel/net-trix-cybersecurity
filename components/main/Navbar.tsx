@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[3px] md:px-[10px]">
         <a
           href="/"
-          className="h-auto w-auto flex flex-row items-center"
+          className="h-auto w-auto flex flex-row items-center" style={{textDecoration: 'none'}}
         >
           <Image
             src="/NavLogo.png"
@@ -18,20 +18,20 @@ const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin"
           />
 
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
+          <span className="font-bold ml-[10px] hidden md:block text-gray-300 no-underline" >
             Net-Trix Solutions
           </span>
         </a>
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="/about" className="cursor-pointer">
+            <a href="/about" className="cursor-pointer text-gray-200" style={{textDecoration: 'none'}}>
               About
             </a>
-            <a href="/contact" className="cursor-pointer">
+            <a href="/contact" className="cursor-pointer text-gray-200" style={{textDecoration: 'none'}}>
               Contact
             </a>
-            <a href="#projects" className="cursor-pointer">
+            <a href="#projects" className="cursor-pointer text-gray-200" style={{textDecoration: 'none'}}>
               Projects
             </a>
           </div>

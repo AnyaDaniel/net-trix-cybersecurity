@@ -18,10 +18,10 @@ const HeroContent = () => {
       <motion.div
       initial="hidden"
       animate="visible"
-      className="px-4 md:px-20 mt-40 w-full"
+      className="px-4 md:px-20 mt-20 w-full"
     >
       <div className="flex flex-row items-center justify-center w-full">
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="h-full w-full flex flex-col justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
           
@@ -46,15 +46,17 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-gray-400 my-10 max-w-[600px]"
         >
           I&apos;m a full stack software engineer with experience in website,
           mobile, and software development. check out my proects and skills.
         </motion.p>
 
         <motion.a
+        style={{textDecoration: 'none'}}
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          href="/about"
         >
           Learn More
         </motion.a>

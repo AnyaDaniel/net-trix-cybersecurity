@@ -12,33 +12,33 @@ const Footer = () => {
           <div className="min-w-[200px] h-auto flex flex-col justify-center items-center">
             <div className="font-bold text-[16px]">Quick Link</div>
             <p className="flex flex-row items-center my-[16px] cursor-pointer">
-              <Link href="/about" className="text-[15px] ml-[6px]">
+              <Link href="/about" className="text-[15px] ml-[6px] text-white" style={{ textDecoration: "none" }}>
                 About Us
               </Link>
             </p>
-            <p className="flex flex-row items-center my-[16px] cursor-pointer">
-              <Link href="contact" className="text-[15px] ml-[6px]">
+            <p className="flex flex-row items-center my-[16px] cursor-pointer" >
+              <Link href="contact" className="text-[15px] ml-[6px] text-white" style={{ textDecoration: "none" }}>
                 Contact Us
               </Link>
             </p>
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Social Media</div>
-            <p className="flex flex-row items-center my-[16px] cursor-pointer">
+            <p className="flex flex-row items-center my-[16px] cursor-pointer" >
               <FaFacebookF />
-              <Link href="" className="text-[15px] ml-[6px]">
+              <Link href="" className="text-[15px] ml-[6px] text-white" style={{ textDecoration: "none" }}>
                 Facebook
               </Link>
             </p>
             <p className="flex flex-row items-center my-[16px] cursor-pointer">
               <FaX />
-              <Link href="https://x.com/Nettrixinc" className="text-[15px] ml-[6px]">
+              <Link href="https://x.com/Nettrixinc" className="text-[15px] ml-[6px] text-white" style={{ textDecoration: "none" }}>
                 X
               </Link>
             </p>
             <p className="flex flex-row items-center my-[16px] cursor-pointer">
               <FaLinkedinIn />
-              <Link href="https://www.linkedin.com/company/net-trix-solutions-inc/mycompany/" className="text-[15px] ml-[6px]">
+              <Link href="https://www.linkedin.com/company/net-trix-solutions-inc/mycompany/" className="text-[15px] ml-[6px] text-white" style={{ textDecoration: "none" }}>
                 LinkedIn
               </Link>
             </p>

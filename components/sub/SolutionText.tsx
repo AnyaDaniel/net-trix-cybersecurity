@@ -34,7 +34,7 @@ const SolutionText = ({num}: Props) => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 px-14 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-2 px-14 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]" style={{ textDecoration: "none" }}
         >
           Learn More
         </motion.a>

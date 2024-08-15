@@ -8,7 +8,10 @@ import { ParallaxLayer } from "@react-spring/parallax";
 
 const Encryption = () => {
   return (
-    <ParallaxLayer offset={2.9} className="flex flex-row relative items-center justify-center min-h-screen w-full h-screen">
+    <ParallaxLayer
+      offset={7.3}
+      className="flex flex-row relative items-center justify-center min-h-screen w-full h-screen"
+    >
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}

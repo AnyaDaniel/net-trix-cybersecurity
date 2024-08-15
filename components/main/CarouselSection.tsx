@@ -16,7 +16,7 @@ const imagesItems = [
 
 const CarouselSection = () => {
   return (
-    <ParallaxLayer offset={7.8} className="h-screen w-screen overflow-hidden bg-bg text-white flex flex-row items-center justify-center z-[10]"><Carousel items={imagesItems} /></ParallaxLayer>
+    <ParallaxLayer offset={14} className="h-screen w-screen overflow-hidden bg-bg text-white flex flex-row items-center justify-center z-[10]"><Carousel items={imagesItems} /></ParallaxLayer>
   )
 }
 

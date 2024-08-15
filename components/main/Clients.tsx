@@ -6,7 +6,7 @@ import { ParallaxLayer } from "@react-spring/parallax";
 
 const Clients = () => {
   return (
-    <ParallaxLayer offset={6.5}>
+    <ParallaxLayer offset={12.6}>
       <div
       id="contact"
       className="flex flex-col items-center justify-center gap-3 h-auto z-[10] overflow-hidden pb-50 py-20 "
