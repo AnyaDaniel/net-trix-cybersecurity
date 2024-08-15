@@ -49,7 +49,7 @@ export default function Home() {
         <ParallaxLayer
           style={{ zIndex: 5 }}
           offset={0.9}
-          onClick={() => parallax.current.scrollTo(15)}
+          onClick={() => parallax.current.scrollTo(1)}
           className="hidden lg:block"
         >
           <animated.div
