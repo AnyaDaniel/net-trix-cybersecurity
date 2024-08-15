@@ -16,12 +16,12 @@ import {
 const Contact = () => {
   return (
     <div>
-      <Parallax pages={3} className="z-[10] md:flex-row gap-10 bg-[#030014] ">
+      <Parallax pages={2.9} className="z-[10] md:flex-row gap-10 bg-[#030014] " >
       <Navbar/>
         <Hero/>
         <ParallaxLayer
         offset={0.6}
-        sticky={{ start: 0.6, end: 1.2 }}
+        sticky={{ start: 0.6, end: 1.4 }}
         
         style={{
           marginLeft: "10%",

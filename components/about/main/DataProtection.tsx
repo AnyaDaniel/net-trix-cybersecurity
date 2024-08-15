@@ -9,10 +9,10 @@ const DataProtection = () => {
             DATA PROTECTION AND CYBERSECURITY
           </h1>
           <p className="text-xl text-gray-400 my-5">
-            In today's digital landscape, ensuring the security and privacy of
+            In today&apos;s digital landscape, ensuring the security and privacy of
             data is crucial for any organization. At Net-Trix Solutions Limited,
             we are committed to providing robust data protection and
-            cybersecurity services to safeguard your business's most valuable
+            cybersecurity services to safeguard your business&apos;s most valuable
             assets.
           </p>
         </div>

@@ -1,13 +1,5 @@
 "use client";
 import React from "react";
-import { ParallaxLayer } from "@react-spring/parallax";
-import {
-  FaGlobe,
-  FaPhone,
-  FaEnvelope,
-  FaLocationArrow,
-  FaLocationDot,
-} from "react-icons/fa6";
 
 const Hero = () => {
   return (

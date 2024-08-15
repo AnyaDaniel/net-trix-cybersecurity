@@ -3,10 +3,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromTop } from "@/utils/motion";
+import { ParallaxLayer } from "@react-spring/parallax";
 
 const ProjectText = () => {
   return (
-    <div className="flex flex-col justify-center items-start md:flex-row md:px-20 px-4 py-20 relative">
+    <ParallaxLayer offset={1} style={{zIndex: 5}}>
+      <div className="flex flex-col justify-center items-start md:flex-row md:px-20 px-4 py-20">
       <motion.div
         variants={slideInFromTop}
         className="flex flex-col gap-6 mt-6 mr-10 text-5xl text-white w-full"
@@ -34,7 +36,8 @@ const ProjectText = () => {
           Learn More
         </motion.a>
       </div>
-    </div>
+      </div>
+    </ParallaxLayer>
   );
 };
 

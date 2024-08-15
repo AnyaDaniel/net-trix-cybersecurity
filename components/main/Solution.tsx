@@ -15,11 +15,11 @@ const Solution = ({num}: Props) => {
       className="flex flex-col items-center justify-center py-20 z-[10] h-screen"
       id="projects"
     >
-        <ParallaxLayer>
+        <ParallaxLayer sticky={{start:4, end:5.4}}>
           <SolutionText num={num} />
         </ParallaxLayer>
 
-        <ParallaxLayer>
+        <ParallaxLayer offset={4}>
           <div className="h-full w-[50vw] px-10">
             <SolutionCard
               src="/os.png"

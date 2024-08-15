@@ -20,12 +20,15 @@ const ClientsText = () => {
         <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
         <h1 className="welcome-text text-[13px]">Think better with Net-Trix</h1>
       </motion.div>
-      <motion.div
-        variants={slideInFromLeft(0.5)}
-        className="flex items-center justify-center h-full/2 py-3"
-      >
-        <Image src='/clients.png' alt='clients' width={150} height={150} className=''/>
-        </motion.div>
+      <div className="flex items-center justify-center py-3 lg:opacity-0">
+        <Image
+          src="/clients.png"
+          alt="clients"
+          width={150}
+          height={150}
+          className=""
+        />
+      </div>
       <motion.div
         variants={slideInFromLeft(0.5)}
         className="text-[30px] text-white font-mediun mt-[10px] mb-[15px] text-center"

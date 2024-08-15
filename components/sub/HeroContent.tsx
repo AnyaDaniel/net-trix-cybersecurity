@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import {
   slideInFromLeft,
@@ -9,17 +9,22 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
+import { ParallaxLayer } from "@react-spring/parallax";
+
 
 const HeroContent = () => {
   return (
-    <motion.div
+    <ParallaxLayer style={{zIndex: 5}}>
+      <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-4 md:px-20 mt-40 w-full z-[20]"
+      className="px-4 md:px-20 mt-40 w-full"
     >
+      <div className="flex flex-row items-center justify-center w-full">
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
+          
           className="welcome-box py-[8px] px-[7px] flex border boder-[#7042f88b] w-max"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
@@ -65,7 +70,10 @@ const HeroContent = () => {
           width={650}
         />
       </motion.div>
+      </div>
+      
     </motion.div>
+    </ParallaxLayer>
   );
 };
 
