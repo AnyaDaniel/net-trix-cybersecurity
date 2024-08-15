@@ -20,7 +20,7 @@ const About = () => {
       <DataProtection/>
       <ProjectParallax/>
       <DataResponsibility/>
-      <Solution num='02.'/>
+      <Solution />
       <Clients/>
       <CarouselSection/>
 
