@@ -8,7 +8,7 @@ import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import { IParallax, Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Footer from "@/components/main/Footer";
-import { FaAngleDown } from "react-icons/fa6";
+import { FaAngleDown, FaArrowUp } from "react-icons/fa6";
 import { useRef } from "react";
 import { config, useSpring, animated } from "@react-spring/web";
 import Image from "next/image";
@@ -19,6 +19,7 @@ import ProjectCard from "@/components/sub/ProjectCard";
 import Trust from "@/components/main/Trust";
 import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromTop } from "@/utils/motion";
+import Choose from "@/components/main/Choose";
 
 export default function Home() {
   const parallax = useRef<IParallax>(null!);
@@ -38,7 +39,7 @@ export default function Home() {
   return (
     <main className="h-full w-full">
       <Parallax
-        pages={15.4}
+        pages={16}
         ref={parallax}
         className="bg-[#030014] "
         style={{ zIndex: 10 }}
@@ -61,7 +62,19 @@ export default function Home() {
           </animated.div>
         </ParallaxLayer>
 
-        {/* platform page text */}
+        {/* back to top */}
+        <ParallaxLayer
+          onClick={() => parallax.current.scrollTo(0)}
+          sticky={{ start: 1, end: 16 }}
+          className="pt-[49%] ml-[96%]"
+          style={{ height: "2.2rem", width: "2.2rem" }}
+        >
+          <div className="bg-[#030014] rounded-[50%] flex items-center justify-center h-[2.2rem] w-[2.2rem] border-1 border-gray-300 cursor-pointer">
+            <FaArrowUp className="text-gray-300 text-[1.3rem]" />
+          </div>
+        </ParallaxLayer>
+
+        {/* platform section text */}
         <ParallaxLayer
           sticky={{ start: 1, end: 4 }}
           style={{
@@ -127,9 +140,11 @@ export default function Home() {
           />
         </ParallaxLayer>
         {/* project card end */}
+
+        {/* encryption */}
         <Encryption />
 
-        {/* solution page text */}
+        {/* solution section text */}
         <ParallaxLayer
           offset={8.7}
           sticky={{ start: 8.7, end: 10.1 }}
@@ -171,28 +186,45 @@ export default function Home() {
           <Solution />
         </ParallaxLayer>
 
-        {/* trust page */}
-        <Trust />
+        {/* trust section */}
+        <ParallaxLayer offset={11.2}>
+          <Trust />
+        </ParallaxLayer>
 
+        {/* client section image */}
         <ParallaxLayer
-            offset={12}
-            sticky={{ start: 12, end: 12.45 }}
-            className="items-center justify-center pt-50 hiidden lg:flex"
-          >
-            <Image
-              src="/clients.png"
-              alt="clients"
-              width={150}
-              height={150}
-              className=""
-            />
-          </ParallaxLayer>
+          offset={12}
+          sticky={{ start: 12, end: 12.45 }}
+          className="items-center justify-center pt-50 hiidden lg:flex"
+        >
+          <Image
+            src="/clients.png"
+            alt="clients"
+            width={150}
+            height={150}
+            className=""
+          />
+        </ParallaxLayer>
 
-        <Clients />
+        {/* clients section */}
+        <ParallaxLayer offset={12.6}>
+          <Clients />
+        </ParallaxLayer>
+
+        {/* testimonial section */}
+        <ParallaxLayer offset={14.7}>
           <CarouselSection />
-          <ParallaxLayer offset={15} className="z-40">
+        </ParallaxLayer>
+
+        {/* choose us section */}
+        <ParallaxLayer offset={14.1}>
+          <Choose />
+        </ParallaxLayer>
+
+        {/* footer */}
+        <ParallaxLayer offset={15.6} className="z-40">
           <Footer />
-          </ParallaxLayer>
+        </ParallaxLayer>
       </Parallax>
     </main>
   );

@@ -4,7 +4,7 @@ import FlipCard from "../sub/FlipCard";
 
 const Trust = () => {
   return (
-    <ParallaxLayer offset={11.2}>
+    <div>
       <div className="py-40">
         <div className="px-32 text-center">
           <h1 className="text-6xl bold text-white mb-10">
@@ -47,7 +47,7 @@ const Trust = () => {
           ></FlipCard>
         </div>
       </div>
-    </ParallaxLayer>
+    </div>
   );
 };
 

@@ -8,11 +8,7 @@ const Hero = () => {
           Net-Trix CyberSecurity
         </h1>
       </div>
-      <div className='absolute bottom-[-190px] right-0 md:right-20 rounded-lg shadow-lg shadow-[#2A0E61]/50 bg-[#472e5f] backdrop-blur-md border border-[#2A0E61] w-full md:w-[45%]'>
-        <div className="py-10 px-16 text-right">
-            <h2 className='text-7xl font text-white '>Defend Your Business<br />Like a Pro</h2>
-        </div>
-    </div>
+      
     </div>
   );
 };

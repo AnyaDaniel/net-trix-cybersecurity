@@ -30,7 +30,7 @@ const DataProtection = () => {
         </div>
       </div>
       <div className="w-[30%] hidden md:block">
-        <div className="w-[100px] h-screen pr-20 bg-gradient-to-b from-purple-500 to-cyan-500 mt-44"></div>
+        <div className="w-[100px] h-[180vh] pr-20 bg-gradient-to-b from-purple-500 to-cyan-500 mt-24"></div>
       </div>
     </div>
   );

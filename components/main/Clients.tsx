@@ -2,11 +2,10 @@ import { First_client, Forth_client, Other_client, Second_client, Third_client }
 import React from "react";
 import ClientsDataProvider from "../sub/ClientsDataProvider";
 import ClientsText from "../sub/ClientsText";
-import { ParallaxLayer } from "@react-spring/parallax";
 
 const Clients = () => {
   return (
-    <ParallaxLayer offset={12.6}>
+    
       <div
       id="contact"
       className="flex flex-col items-center justify-center gap-3 h-auto z-[10] overflow-hidden pb-50 py-20 "
@@ -83,7 +82,6 @@ const Clients = () => {
         </div>
       </div>
     </div>
-    </ParallaxLayer>
   );
 };
 

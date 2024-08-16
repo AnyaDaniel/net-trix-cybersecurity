@@ -1,9 +1,7 @@
 import React from 'react'
-import type { NextPage } from 'next';
 import Image from 'next/image';
 
 import Carousel from '../sub/Carousel';
-import { ParallaxLayer } from '@react-spring/parallax';
 
 const imagesItems = [
   { id: 1, component: <Image width={1500} height={1000} src='/card1.svg' alt="teste" /> },
@@ -16,7 +14,7 @@ const imagesItems = [
 
 const CarouselSection = () => {
   return (
-    <ParallaxLayer offset={14} className="h-screen w-screen overflow-hidden bg-bg text-white flex flex-row items-center justify-center z-[10]"><Carousel items={imagesItems} /></ParallaxLayer>
+    <div className="h-screen w-screen overflow-hidden bg-bg text-white flex flex-row items-center justify-center z-[10]"><Carousel items={imagesItems} /></div>
   )
 }
 
