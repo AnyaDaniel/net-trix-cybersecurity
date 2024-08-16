@@ -1,11 +1,10 @@
-import { ParallaxLayer } from "@react-spring/parallax";
 import React from "react";
 import FlipCard from "../sub/FlipCard";
 
 const Trust = () => {
   return (
     <div>
-      <div className="py-40">
+      <div className="py-40 bg-[url('/trustbg.jpg')] bg-cover">
         <div className="px-32 text-center">
           <h1 className="text-6xl bold text-white mb-10">
             Largest Organizations Around the World Trust Fortinet

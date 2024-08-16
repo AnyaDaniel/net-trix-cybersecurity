@@ -15,13 +15,15 @@ import { FaArrowUp } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromTop } from "@/utils/motion";
 import Compliance from "@/components/about/main/Compliance";
+import Incident from "@/components/about/main/Incident";
+import Soc from "@/components/about/main/Soc";
 
 const About = () => {
   const parallax = useRef<IParallax>(null!);
 
   return (
     <div>
-      <Parallax pages={10} ref={parallax} className="bg-[#030014] ">
+      <Parallax pages={15} ref={parallax} className="bg-[#030014] ">
         <Navbar />
         <Hero />
         {/* back to top */}
@@ -35,6 +37,8 @@ const About = () => {
             <FaArrowUp className="text-gray-300 text-[1.3rem]" />
           </div>
         </ParallaxLayer>
+
+        {/* hero card */}
         <ParallaxLayer
           offset={0.82}
           sticky={{ start: 0.82, end: 1.4 }}
@@ -97,7 +101,7 @@ const About = () => {
           className=""
           style={{ paddingTop: "37%" }}
         >
-          <div className="rounded-r-[100px] ml-16 px-16 py-5 w-[30%] bg-purple-900">
+          <div className="rounded-r-[100px] ml-16 px-16 py-3 w-[30%] bg-purple-900">
             <h1 className="text-2xl text-white text-right">
               Net-Trix Solutions
             </h1>
@@ -109,17 +113,19 @@ const About = () => {
         <ParallaxLayer
           offset={5.39}
           sticky={{ start: 5.39, end: 6.79 }}
-          className=""
+          className="z-[-2]"
         >
           <div className="md:w-[50vw] w-full bg-gradient-to-b from-purple-500 to-cyan-500 rounded-tr-[2rem] pt-4 pr-4">
             <div className="w-full h-screen flex flex-col items-center justify-center p-20 bg-[#030014] rounded-tr-[calc(2rem-16px)] ">
-              <h1 className="text-6xl font-thin mb-2 text-right">02.</h1>
               <motion.div
                 variants={slideInFromTop}
                 className="flex flex-col gap-6 my-6 mr-10 text-5xl text-right text-white w-full h-auto"
               >
+                <h1 className="text-6xl font-thin mb-2 text-right text-gray-400">
+                  02.
+                </h1>
                 Cybersecurity
-                <span className="text-transparent bg-clip-text text-6xl tracking-[0.7rem] bg-gradient-to-r from-purple-500 to-cyan-500 font-bold mt-[-20px]">
+                <span className="text-transparent bg-clip-text text-6xl tracking-widest bg-gradient-to-r from-purple-500 to-cyan-500 font-bold mt-[-20px]">
                   {" "}
                   Solution
                 </span>
@@ -127,7 +133,7 @@ const About = () => {
               <div className="flex flex-col items-end">
                 <motion.p
                   variants={slideInFromLeft(0.8)}
-                  className="text-xl text-right text-gray-400 my-5 pb-7 "
+                  className="text-xl text-right text-gray-400 my-5 pb-7 max-w-[500px]"
                 >
                   Cybersecurity threats are ever-evolving, and so are our
                   solutions. We provide a range of services to keep your IT
@@ -148,8 +154,11 @@ const About = () => {
           <Solution />
         </ParallaxLayer>
 
+        {/* compliance, incident and soc sections */}
         <ParallaxLayer offset={7.81}>
-          <Compliance/>
+          <Compliance />
+          <Incident />
+          <Soc />
         </ParallaxLayer>
         {/* <Clients /> */}
         {/* <CarouselSection /> */}
