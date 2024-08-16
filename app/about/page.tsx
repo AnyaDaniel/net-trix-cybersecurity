@@ -8,7 +8,6 @@ import Footer from "@/components/main/Footer";
 import Navbar from "@/components/main/Navbar";
 import Solution from "@/components/main/Solution";
 import ProjectCard from "@/components/sub/ProjectCard";
-import ProjectParallax from "@/components/sub/ProjectParallax";
 import { IParallax, Parallax, ParallaxLayer } from "@react-spring/parallax";
 import React, { useRef } from "react";
 import { FaArrowUp } from "react-icons/fa6";
