@@ -8,7 +8,7 @@ const ComplianceCarousel = () => {
       <div
         id="carouselExampleAutoplaying"
         className="carousel slide carousel-fade w-full"
-        // data-bs-ride="carousel"
+        data-bs-ride="carousel"
       >
         <div className="carousel-inner h-full">
           <div className="carousel-item h-[50vh] active">
