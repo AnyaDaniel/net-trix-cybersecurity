@@ -1,9 +1,15 @@
-'use client'
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 const ComplianceCarousel = () => {
+  // Ensure the carousel JavaScript is initialized on the client
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      import("bootstrap/dist/js/bootstrap.bundle.min.js" as any);
+    }
+  }, []);
+
   return (
     <div>
       <div
@@ -13,7 +19,10 @@ const ComplianceCarousel = () => {
       >
         <div className="carousel-inner h-full">
           <div className="carousel-item h-[50vh] active">
-            <div className="carousel-caption h-full d-md-block" style={{paddingBottom: 0, paddingTop: '6rem'}}>
+            <div
+              className="carousel-caption h-full d-md-block"
+              style={{ paddingBottom: 0, paddingTop: "6rem" }}
+            >
               <div className="h-full flex flex-col justify-start items-center px-2 w-full">
                 <h1 className="text-2xl text-cyan-200 mb-4">GDPR Compliance</h1>
                 <p className="text-cyan-700 text-lg">
@@ -25,7 +34,10 @@ const ComplianceCarousel = () => {
             </div>
           </div>
           <div className="carousel-item h-[50vh]">
-            <div className="carousel-caption h-full d-md-block" style={{paddingBottom: 0, paddingTop: '6rem'}}>
+            <div
+              className="carousel-caption h-full d-md-block"
+              style={{ paddingBottom: 0, paddingTop: "6rem" }}
+            >
               <div className="h-full flex flex-col justify-start items-center px-2 w-full">
                 <h1 className="text-2xl text-cyan-200 mb-4">
                   HIPAA Compliance
@@ -40,7 +52,10 @@ const ComplianceCarousel = () => {
             </div>
           </div>
           <div className="carousel-item h-[50vh]">
-            <div className="carousel-caption h-full d-md-block" style={{paddingBottom: 0, paddingTop: '6rem'}}>
+            <div
+              className="carousel-caption h-full d-md-block"
+              style={{ paddingBottom: 0, paddingTop: "6rem" }}
+            >
               <div className="h-full flex flex-col justify-start items-center px-2 w-full">
                 <h1 className="text-2xl text-cyan-200 mb-4">
                   ISO 27001 Certification

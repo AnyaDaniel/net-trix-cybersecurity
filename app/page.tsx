@@ -191,21 +191,6 @@ export default function Home() {
           <Trust />
         </ParallaxLayer>
 
-        {/* client section image */}
-        <ParallaxLayer
-          offset={12}
-          sticky={{ start: 12, end: 12.45 }}
-          className="items-center justify-center pt-50 hiidden lg:flex"
-        >
-          <Image
-            src="/clients.png"
-            alt="clients"
-            width={150}
-            height={150}
-            className=""
-          />
-        </ParallaxLayer>
-
         {/* clients section */}
         <ParallaxLayer offset={12.6}>
           <Clients />

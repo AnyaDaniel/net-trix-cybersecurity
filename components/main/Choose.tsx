@@ -1,9 +1,12 @@
-'use client'
-import React from "react";
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
+"use client";
+import React, { useEffect } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Choose = () => {
+  useEffect(() => {
+    import("bootstrap/dist/js/bootstrap.bundle.min.js" as any);
+  }, []);
+
   return (
     <div className="py-10 ">
       <h1 className="text-white pb-5 pl-24">Why Choose Us</h1>
@@ -14,7 +17,11 @@ const Choose = () => {
       >
         <div
           className="carousel-indicators m-0 top-0 left-0 md:w-1/2 z-10"
-          style={{ paddingLeft: "6.2rem", paddingTop: "1rem", paddingRight: "1rem" }}
+          style={{
+            paddingLeft: "6.2rem",
+            paddingTop: "1rem",
+            paddingRight: "1rem",
+          }}
         >
           <button
             type="button"
@@ -75,7 +82,6 @@ const Choose = () => {
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"
-
         >
           <span
             className="carousel-control-next-icon"
@@ -115,7 +121,7 @@ const Choose = () => {
             <div className="bg-cover w-1/2 h-[300px] bg-[url('/chooseimg.jpg')]"></div>
           </div>
           <div
-            className="carousel-item flex flex-col-reverse md:flex-row w-full items-center justify-center bg-[#1f293738] rounded-md" 
+            className="carousel-item flex flex-col-reverse md:flex-row w-full items-center justify-center bg-[#1f293738] rounded-md"
             style={{ display: "flex" }}
           >
             <div className="w-1/2 md:px-10 px-4">

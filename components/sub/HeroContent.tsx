@@ -1,13 +1,11 @@
 "use client";
 
-import React, { useRef } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import {
   slideInFromLeft,
   slideInFromRight,
-  slideInFromTop,
 } from "@/utils/motion";
-import { SparklesIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import { ParallaxLayer } from "@react-spring/parallax";
 
@@ -22,14 +20,6 @@ const HeroContent = () => {
     >
       <div className="flex flex-row items-center justify-center w-full">
       <div className="h-full w-full flex flex-col justify-center m-auto text-start">
-        <motion.div
-          variants={slideInFromTop}
-          
-          className="welcome-box py-[8px] px-[7px] flex border boder-[#7042f88b] w-max"
-        >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="welcome-text text-[13px]">Net-Trix Cyber Security</h1>
-        </motion.div>
         <motion.div
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-6xl text-white max-w-[600px] w-auto h-auto"
