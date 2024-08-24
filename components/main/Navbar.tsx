@@ -12,7 +12,7 @@ const Navbar = () => {
           className="h-auto w-auto flex flex-row items-center" style={{textDecoration: 'none'}}
         >
           <Image
-            src="/NavLogo.png"
+            src="/logo.png"
             alt="logo"
             width={70}
             height={70}
