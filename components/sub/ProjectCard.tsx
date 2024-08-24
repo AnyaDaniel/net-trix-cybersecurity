@@ -11,8 +11,8 @@ interface Props {
 const ProjectCard = ({src, title, description, cls} : Props) => {
   return (
     <div className={cls}>
-        <div className="flex items-center justify-center w-full h-full/2 py-3">
-        <Image src={src} alt={title} width={150} height={150} className=''/>
+        <div className="flex items-center justify-center w-full py-3">
+        <Image src={src} alt={title} width={90} height={90} className=''/>
         </div>
         <div className="p-4">
             <h2 className='text-2xl font-semibold text-white'>{title}</h2>

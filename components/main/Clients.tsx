@@ -1,14 +1,18 @@
-import { First_client, Forth_client, Other_client, Second_client, Third_client } from "@/constants";
+import {
+  First_client,
+  Forth_client,
+  Other_client,
+  Second_client,
+  Third_client,
+} from "@/constants";
 import React from "react";
 import ClientsDataProvider from "../sub/ClientsDataProvider";
 import ClientsText from "../sub/ClientsText";
 
 const Clients = () => {
   return (
-    
-      <div
-      id="contact"
-      className="flex flex-col items-center justify-center gap-3 h-auto z-[10] overflow-hidden pb-50 py-20 "
+    <div
+      className="flex flex-col items-center justify-center gap-3 overflow-hidden"
       style={{ transform: "scale(0.9)" }}
     >
       <ClientsText />

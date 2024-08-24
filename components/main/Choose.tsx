@@ -9,7 +9,7 @@ const Choose = () => {
 
   return (
     <div className="py-10 ">
-      <h1 className="text-white pb-5 pl-24">Why Choose Us</h1>
+      <h1 className="text-white pb-2 md:pb-5 pl-5 md:pl-24">Why Choose Us</h1>
       <div
         id="carouselExampleIndicators"
         className="carousel slide carousel-fade w-screen relative "
@@ -89,51 +89,48 @@ const Choose = () => {
           ></span>
           <span className="visually-hidden">Next</span>
         </button>
-        <div className="carousel-inner px-20 ">
+        <div className="carousel-inner md:px-20 ">
           <div
             className="carousel-item active flex flex-col-reverse md:flex-row w-full items-center justify-center bg-[#1f293738] rounded-md"
             style={{ display: "flex" }}
           >
-            <div className="w-1/2 md:px-10 px-4">
-              <div className="py-5 text-gray-300">
-                <h1 className="">Innovation Labs</h1>
+            <div className="w-full md:w-1/2 md:px-10 px-4">
+              <div className="pt-2 pb-5 md:py-5 text-gray-300">
+                <h1 className="">24/7 Monitoring</h1>
                 <p className="pt-2 md:max-w-[450px]">
-                  Through Our 20+ R&D-focused Labs, we cultivate proprietary
-                  frameworks, research, and PoCs to help speed time-to-value.
+                  Around-the-clock vigilance to detect and neutralixe threats before they impact your operations.
                 </p>
               </div>
             </div>
-            <div className="bg-cover w-1/2 h-[300px] bg-[url('/opcenter.jpg')]"></div>
+            <div className="bg-cover w-full md:w-1/2 h-[300px] bg-[url('/opcenter.jpg')]"></div>
           </div>
           <div
             className="carousel-item flex flex-col-reverse md:flex-row w-full items-center justify-center bg-[#1f293738] rounded-md"
             style={{ display: "flex" }}
           >
-            <div className="w-1/2 md:px-10 px-4">
-              <div className="py-5 text-gray-300">
-                <h1 className="">Innovation Labs</h1>
+            <div className="w-full md:w-1/2 md:px-10 px-4">
+              <div className="pt-2 pb-5 md:py-5 text-gray-300">
+                <h1 className="">Expertise</h1>
                 <p className="pt-2 md:w-[450px]">
-                  Through Our 20+ R&D-focused Labs, we cultivate proprietary
-                  frameworks, research, and PoCs to help speed time-to-value.
+                  Our team of certified professionals brings years of experience in protecting businesses of all sizes.
                 </p>
               </div>
             </div>
-            <div className="bg-cover w-1/2 h-[300px] bg-[url('/chooseimg.jpg')]"></div>
+            <div className="bg-cover w-full md:w-1/2 h-[300px] bg-[url('/chooseimg.jpg')]"></div>
           </div>
           <div
             className="carousel-item flex flex-col-reverse md:flex-row w-full items-center justify-center bg-[#1f293738] rounded-md"
             style={{ display: "flex" }}
           >
-            <div className="w-1/2 md:px-10 px-4">
-              <div className="py-5 text-gray-300">
-                <h1 className="">Innovation Labs</h1>
+            <div className="w-full md:w-1/2 md:px-10 px-4">
+              <div className="pt-2 pb-5 md:py-5 text-gray-300">
+                <h1 className="">Customized Solutions</h1>
                 <p className="pt-2 md:w-[450px]">
-                  Through Our 20+ R&D-focused Labs, we cultivate proprietary
-                  frameworks, research, and PoCs to help speed time-to-value.
+                  Tailored security strategies that fit the unique needs of your business.
                 </p>
               </div>
             </div>
-            <div className="bg-cover w-1/2 h-[300px] bg-[url('/chooseimgtwo.jpg')]"></div>
+            <div className="bg-cover w-full md:w-1/2 h-[300px] bg-[url('/chooseimgtwo.jpg')]"></div>
           </div>
         </div>
       </div>

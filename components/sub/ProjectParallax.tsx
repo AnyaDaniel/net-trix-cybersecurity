@@ -16,7 +16,7 @@ const ProjectParallax = () => {
             src="/os.png"
             title="Data Encryption"
             description=" Protecting your data in transit and at rest using advanced encryption techniques."
-            cls="overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-[30.6vw] md:ml-[2vw]"
+            cls="overflow-hidden rounded-lg shadow-lg w-full md:w-[30.6vw] md:ml-[2vw]"
           />
         </ParallaxLayer>
         <ParallaxLayer
@@ -28,7 +28,7 @@ const ProjectParallax = () => {
             src="/folder.png"
             title="Data Backup and Recovery"
             description="Implementing reliable backup solutions to ensure data availability and integrity in case of hardware failures or cyber incidents."
-            cls="overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-[30.6vw] md:ml-[34.6vw]"
+            cls="overflow-hidden rounded-lg shadow-lg w-full md:w-[30.6vw] md:ml-[34.6vw]"
           />
         </ParallaxLayer>
         <ParallaxLayer
@@ -40,7 +40,7 @@ const ProjectParallax = () => {
             src="/analyzer.png"
             title="Data Loss Prevention (DLP)"
             description="Identifying and preventing potential data breaches by monitoring and controlling data transfers across your network."
-            cls="overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-[30.6vw] md:ml-[67.2vw]"
+            cls="overflow-hidden rounded-lg shadow-lg w-full md:w-[30.6vw] md:ml-[67.2vw]"
           />
         </ParallaxLayer>
       </div>

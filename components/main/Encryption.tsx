@@ -8,8 +8,7 @@ import { ParallaxLayer } from "@react-spring/parallax";
 
 const Encryption = () => {
   return (
-    <ParallaxLayer
-      offset={7.3}
+    <div
       className="flex flex-row relative items-center justify-center min-h-screen w-full h-screen"
     >
       <div className="absolute w-auto h-auto top-0 z-[5]">
@@ -43,8 +42,8 @@ const Encryption = () => {
             className="tz-10"
           />
         </div>
-        <div className="welcome-box px-[15px] py-[4px] z-[20] border my-[20px] border-[#7042f88b] opacity-[0.9]">
-          <h1 className="welcome-text text-[10px]">Encryption</h1>
+        <div className="welcome-box px-[15px] py-[px] z-[20] border my-[20px] border-[#7042f88b] opacity-[0.9]">
+          <h1 className="welcome-text text-base text-white">Encryption</h1>
         </div>
       </div>
       <div className="absolute z-[20] bottom-[10px] px-[5px]">
@@ -64,7 +63,7 @@ const Encryption = () => {
           src="/encryption.webm"
         />
       </div>
-    </ParallaxLayer>
+    </div>
   );
 };
 

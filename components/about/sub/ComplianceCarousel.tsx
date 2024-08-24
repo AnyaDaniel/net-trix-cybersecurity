@@ -15,17 +15,16 @@ const ComplianceCarousel = () => {
       <div
         id="carouselExampleAutoplaying"
         className="carousel slide carousel-fade w-full"
-        data-bs-ride="carousel"
+        // data-bs-ride="carousel"
       >
         <div className="carousel-inner h-full">
           <div className="carousel-item h-[50vh] active">
             <div
-              className="carousel-caption h-full d-md-block"
-              style={{ paddingBottom: 0, paddingTop: "6rem" }}
+              className="carousel-caption h-full d-md-block compliance"
             >
               <div className="h-full flex flex-col justify-start items-center px-2 w-full">
-                <h1 className="text-2xl text-cyan-200 mb-4">GDPR Compliance</h1>
-                <p className="text-cyan-700 text-lg">
+                <h1 className="text-xl md:text-2xl text-cyan-200 mb-4">GDPR Compliance</h1>
+                <p className="text-cyan-700 text-base md:text-lg">
                   Ensuring your organization adheres to the General Data
                   Protection Regulation (GDPR) requirements, protecting the
                   personal data of EU citizens.
@@ -35,14 +34,13 @@ const ComplianceCarousel = () => {
           </div>
           <div className="carousel-item h-[50vh]">
             <div
-              className="carousel-caption h-full d-md-block"
-              style={{ paddingBottom: 0, paddingTop: "6rem" }}
+              className="carousel-caption h-full d-md-block compliance"
             >
               <div className="h-full flex flex-col justify-start items-center px-2 w-full">
-                <h1 className="text-2xl text-cyan-200 mb-4">
+                <h1 className="text-xl md:text-2xl text-cyan-200 mb-4">
                   HIPAA Compliance
                 </h1>
-                <p className="text-cyan-700 text-lg">
+                <p className="text-cyan-700 text-base md:text-lg">
                   Implementing safeguards to ensure the confidentiality,
                   integrity, and availability of electronic protected health
                   information (ePHI) in compliance with the Health Insurance
@@ -53,14 +51,13 @@ const ComplianceCarousel = () => {
           </div>
           <div className="carousel-item h-[50vh]">
             <div
-              className="carousel-caption h-full d-md-block"
-              style={{ paddingBottom: 0, paddingTop: "6rem" }}
+              className="carousel-caption h-full d-md-block compliance "
             >
               <div className="h-full flex flex-col justify-start items-center px-2 w-full">
-                <h1 className="text-2xl text-cyan-200 mb-4">
+                <h1 className="text-xl md:text-2xl text-cyan-200 mb-4">
                   ISO 27001 Certification
                 </h1>
-                <p className="text-cyan-700 text-lg">
+                <p className="text-cyan-700 text-base md:text-lg">
                   Assisting your organization in achieving ISO 27001
                   certification, demonstrating your commitment to information
                   security management.

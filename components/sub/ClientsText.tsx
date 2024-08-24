@@ -10,19 +10,10 @@ import Image from "next/image";
 
 const ClientsText = () => {
   return (
-    <div className="w-full h-auto flex flex-col items-center justify-center relative">
-      <div className="flex items-center justify-center py-3 lg:opacity-0">
-        <Image
-          src="/clients.png"
-          alt="clients"
-          width={150}
-          height={150}
-          className=""
-        />
-      </div>
+    <div className="w-full h-auto flex flex-col items-center justify-center relative pt-10">
       <motion.div
         variants={slideInFromLeft(0.5)}
-        className="text-[30px] text-white font-mediun mt-[10px] mb-[15px] text-center"
+        className="text-4xl text-white font-mediun mt-[10px] mb-[15px] text-center"
       >
         Our Clients
       </motion.div>

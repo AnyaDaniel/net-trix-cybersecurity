@@ -95,8 +95,79 @@ a{
     
   }
 
+  .compliance.carousel-caption{
+    padding-bottom: 0; padding-top: 6rem;
+  }
+
+  
+
   /* shadow stlying */
 
-  .shadow-lg{
-    
+  .border-\[\#2A0E61\]{
+    --tw-border-opacity: 1!important;
+    border-color: rgb(42 14 97 / var(--tw-border-opacity))!important;
   }
+
+  .shadow-\[\#2A0E61\]\/50{
+    --tw-shadow-color: rgb(42 14 97 / 0.5)!important;
+    --tw-shadow: var(--tw-shadow-colored)!important;
+  }
+  .shadow-lg{
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)!important;
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color)!important;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)!important;
+  }
+
+#navbar{
+  border-color: #0300145e;
+}
+
+@media screen and (max-width: 992px) {
+  .contactinfo{
+    margin-left: 0;
+            padding-top: 0;
+            height: auto;
+            width: 100%;
+  }
+  .testimonial{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .carousel-control-next.control, .carousel-control-prev.control{
+    top: 90%;
+    left: 1rem;
+  }
+  .compliance.carousel-caption{
+    padding-top: 2rem;
+  }
+  .hero{
+    height: auto;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .training{
+    padding-right: 0;
+  }
+  .compliancemain{
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .incident{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .soc{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .contacthero{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+  

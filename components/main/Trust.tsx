@@ -6,12 +6,12 @@ import FlipCard from "../sub/FlipCard";
 const Trust = () => {
   return (
     <div>
-      <div className="py-40 bg-[url('/trustbg.jpg')] bg-cover">
-        <div className="px-32 text-center">
-          <h1 className="text-6xl bold text-white mb-10">
+      <div className="py-10 md:py-40 bg-[url('/trustbg.jpg')] bg-cover">
+        <div className="px-10 md:px-32 text-center">
+          <h1 className="text-3xl md:text-6xl bold text-white mb-10">
             Largest Organizations Around the World Trust Fortinet
           </h1>
-          <p className="text-lg text-gray-400">
+          <p className="text-lg text-gray-200">
             As a leading vendor in the cyberesecurity industry, Fortinet secures
             the largest enterprises, service providers, and government
             organizations around the world

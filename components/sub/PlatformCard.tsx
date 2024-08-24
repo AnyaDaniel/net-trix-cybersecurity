@@ -14,7 +14,7 @@ const PlatformCard = ({ src, title, description, cls, heading }: Props) => {
     <div className={cls}>
       <p className="text-gray-200 text-md py-2 text-center">{heading}</p>
       <div className="flex items-center justify-center w-full">
-        <Image src={src} alt={title} width={150} height={150} className="" />
+        <Image src={src} alt={title} width={90} height={90} className="" />
       </div>
       <div className="py-4 px-10 text-center">
         <h2 className="text-2xl font-semibold text-white">{title}</h2>

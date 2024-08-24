@@ -194,7 +194,7 @@ export const Skill_data = [
     
     {
       skill_name: "MicroSoft",
-      Image: "/miscrosoft.png",
+      Image: "/microsoft.png",
       width: 80,
       height: 80,
     },
@@ -287,8 +287,8 @@ export const Skill_data = [
     {
       skill_name: "Ministry of Human Affairs",
       Image: "/mha.png",
-      width: 80,
-      height: 80,
+      width: 90,
+      height: 90,
     },
   ];
   

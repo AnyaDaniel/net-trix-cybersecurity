@@ -6,20 +6,20 @@ import FlipCard from "../sub/FlipCard";
 const Soc = () => {
   return (
     <div>
-      <div className="py-40 bg-[url('/trustbg.jpg')] bg-cover">
-        <div className="px-32 text-center">
-        <h1 className="text-6xl font-thin mb-3 text-gray-400">05.</h1>
-          <h1 className="text-6xl bold text-white mb-5">
+      <div className="py-10 md:py-20 bg-[url('/training.jpg')] bg-cover">
+        <div className="px-32 text-center soc">
+        <h1 className="text-4xl md:text-6xl font-thin mb-3 text-gray-200">05.</h1>
+          <h1 className="text-4xl md:text-6xl bold text-white mb-3 md:mb-5">
             SECURITY OPERATIONS CENTER
           </h1>
-          <p className="text-lg text-gray-400">
+          <p className="text-lg text-gray-200">
             We envision a digital world where businesses can operate securely
             and efficiently, free from the constant threat of cyber-attacks. Our
             goal is to be the leading provider of SOC services, recognized for
             our innovation, expertise, and commitment to client security.
           </p>
         </div>
-        <div className="flex flex-col justify-between items-center md:flex-row p-20 gap-3">
+        <div className="flex flex-col justify-between items-center md:flex-row py-5 md:p-20 gap-3">
           <FlipCard
             backQuote={true}
             listone="Comprehensive assessment of organizational needs"
