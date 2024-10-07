@@ -9,10 +9,10 @@ const Trust = () => {
       <div className="py-10 md:py-40 bg-[url('/trustbg.jpg')] bg-cover">
         <div className="px-10 md:px-32 text-center">
           <h1 className="text-3xl md:text-6xl bold text-white mb-10">
-            Largest Organizations Around the World Trust Fortinet
+            Largest Organizations Around the World Trust Net Trix 
           </h1>
           <p className="text-lg text-gray-200">
-            As a leading vendor in the cyberesecurity industry, Fortinet secures
+            As one of the leading vendor in the cyberesecurity industry, Net Trix secures
             the largest enterprises, service providers, and government
             organizations around the world
           </p>
@@ -20,7 +20,7 @@ const Trust = () => {
         <div className="flex flex-col justify-between items-center md:flex-row p-10 gap-3">
           <FlipCard
             backQuote={true}
-            backBody="As a global US-based company, we are a leader in enterprise-classss cybersecurity and networking innovation, securing over 700,000 enterprises, service providers, and government organizations worldwide."
+            backBody="As a global based company, we are a leader in enterprise-classss cybersecurity and networking innovation, securing over 700,000 enterprises, service providers, and government organizations worldwide."
             title="Trusted Company"
             blur={"6px"}
             bgColor="#61bdaf80"
