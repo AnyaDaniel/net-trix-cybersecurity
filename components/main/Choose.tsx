@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Choose = () => {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle.min.js" as any);
-  }, []);
+  }, []); 
 
   return (
     <div className="py-10 ">

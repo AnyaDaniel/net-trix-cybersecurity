@@ -2,7 +2,7 @@ import React from "react";
 
 const Training = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-start px-4 md:px-10">
+    <div className="flex flex-col md:flex-row justify-center items-start px-4 md:px-10" >
       <div className="pt-5 md:pl-10 md:pt-24 md:w-[70%]">
         <div className="border-l-2 pl-2 md:max-w-[450px] border-r-gray-400">
           <h1 className="text-3xl text-white">

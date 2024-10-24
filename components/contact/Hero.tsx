@@ -5,7 +5,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div>
-      <div className="w-screen md:h-screen h-auto pt-20 md:pt-40 pl-40 bg-[url('/contact.jpg')] bg-cover contacthero">
+      <div className="w-screen lg:h-screen pt-20 md:pt-40 pl-40 bg-[url('/contact.jpg')] bg-cover contacthero">
         <h1 className="text-transparent text-3xl md:text-6xl bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-bold">
           Contact Us
         </h1>

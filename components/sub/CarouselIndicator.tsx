@@ -26,7 +26,7 @@ export default function CarouselIndicator({
             onClick={() => {
               onSetActiveIndex(index);
             }}
-          ></div>
+          ></div> 
         );
       })}
     </div>

@@ -7,13 +7,13 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] relative z-[10] bottom-0">
-      <div className="w-full flex flex-col items-center justify center m-auto ">
-        <div className="w-full h-full flex items-start justify-around flex-wrap">
-          <div className="min-w-[200px] h-auto pt-5 flex flex-col justify-center items-center">
+      <div className="w-full flex flex-col items-center justify-center m-auto ">
+        <div className="w-full h-full items-start justify-around flex flex-wrap">
+          <div className=" h-auto pt-5 flex flex-col justify-center items-center">
             <div className="font-bold text-[16px]">Quick Link</div>
             <p className="flex flex-row items-center my-[16px] cursor-pointer">
               <Link href="/" className="text-[15px] ml-[6px] text-white" style={{ textDecoration: "none" }}>
-                Homepage
+                Home
               </Link>
             </p>
             <p className="flex flex-row items-center my-[16px] cursor-pointer">
@@ -22,12 +22,18 @@ const Footer = () => {
               </Link>
             </p>
             <p className="flex flex-row items-center my-[16px] cursor-pointer" >
+              <Link href="services" className="text-[15px] ml-[6px] text-white" style={{ textDecoration: "none" }}>
+                Services
+              </Link>
+            </p>
+            <p className="flex flex-row items-center my-[16px] cursor-pointer" >
               <Link href="contact" className="text-[15px] ml-[6px] text-white" style={{ textDecoration: "none" }}>
                 Contact Us
               </Link>
             </p>
+
           </div>
-          <div className="min-w-[200px] h-auto pt-5 md:pt-0 flex flex-col items-center justify-start">
+          <div className=" h-auto pt-5 md:pt-0 flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Social Media</div>
             <p className="flex flex-row items-center my-[16px] cursor-pointer" >
               <FaFacebookF />
@@ -48,7 +54,7 @@ const Footer = () => {
               </Link>
             </p>
           </div>
-          <div className="min-w-[200px] h-auto pt-5 md:pt-0 flex flex-col items-center justify-start">
+          <div className=" h-auto pt-5 md:pt-0 flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Reach Us</div>
             <p className="flex flex-row items-center my-[16px]">
             <FaPhone />

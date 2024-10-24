@@ -9,12 +9,10 @@ const Trust = () => {
       <div className="py-10 md:py-40 bg-[url('/trustbg.jpg')] bg-cover">
         <div className="px-10 md:px-32 text-center">
           <h1 className="text-3xl md:text-6xl bold text-white mb-10">
-            Largest Organizations Around the World Trust Net Trix 
+            Largest Organizations Around the World Trust Net-Trix 
           </h1>
           <p className="text-lg text-gray-200">
-            As one of the leading vendor in the cyberesecurity industry, Net Trix secures
-            the largest enterprises, service providers, and government
-            organizations around the world
+            At Net Trix Solutions, we leverage our strong partnership with Fortinet, a global leader in cybersecurity, to deliver top-tier solutions. Through this collaboration, we provide access to Fortinet&apos;s cutting-edge technologies and tools, ensuring our clients benefit from the best in cybersecurity.
           </p>
         </div>
         <div className="flex flex-col justify-between items-center md:flex-row p-10 gap-3">
