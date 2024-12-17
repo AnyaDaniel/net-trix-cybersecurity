@@ -1,4 +1,5 @@
 import {
+  Fifth_client,
   First_client,
   Forth_client,
   Other_client,
@@ -8,11 +9,12 @@ import {
 import React from "react";
 import ClientsDataProvider from "../sub/ClientsDataProvider";
 import ClientsText from "../sub/ClientsText";
+import PartnerText from "../sub/PartnerText";
 
 const Clients = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center gap-3 overflow-hidden"
+      className="flex flex-col items-center justify-center gap-3 overflow-hidden w-full"
       style={{ transform: "scale(0.9)" }}
     >
       <ClientsText />
@@ -84,6 +86,19 @@ const Clients = () => {
             src="/cards-video.webm"
           />
         </div>
+      </div>
+
+      <PartnerText />
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        {Fifth_client.map((image, index) => (
+          <ClientsDataProvider
+            key={index}
+            src={image.Image}
+            width={image.width}
+            height={image.height}
+            index={index}
+          />
+        ))}
       </div>
     </div>
   );

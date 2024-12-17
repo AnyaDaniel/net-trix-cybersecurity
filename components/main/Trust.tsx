@@ -12,7 +12,7 @@ const Trust = () => {
             Largest Organizations Around the World Trust Net-Trix 
           </h1>
           <p className="text-lg text-gray-200">
-            At Net Trix Solutions, we leverage our strong partnership with Fortinet, a global leader in cybersecurity, to deliver top-tier solutions. Through this collaboration, we provide access to Fortinet&apos;s cutting-edge technologies and tools, ensuring our clients benefit from the best in cybersecurity.
+            At Net Trix Solutions, We capitalize on our robust collaboration with leading global cybersecurity experts. to deliver top-tier solutions. Through this collaboration, we provide access to Fortinet&apos;s cutting-edge technologies and tools, ensuring our clients benefit from the best in cybersecurity.
           </p>
         </div>
         <div className="flex flex-col justify-between items-center md:flex-row p-10 gap-3">

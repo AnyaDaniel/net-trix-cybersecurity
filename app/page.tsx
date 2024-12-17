@@ -97,7 +97,7 @@ export default function Home() {
                 System
               </h1>
               <p className="text-gray-300 mt-10">
-              At Net Trix Solutions, we are committed to bridging the gap between innovation and security. As a trusted partner of Fortinet, we deliver advanced cybersecurity solutions, from SOC centers to firewall setups, training, and penetration testing. Our mission is to empower businesses with the tools and expertise needed to safeguard their digital environments.
+              At Net-Trix Solutions, we are dedicated to bridging the gap between innovation and security. Leveraging our strong partnerships with global cybersecurity experts, we provide advanced solutions, including SOC centers, firewall setups, training, and penetration testing. Our mission is to empower businesses with the tools and expertise necessary to protect their digital environments effectively.
               </p>
             </div>
           </ParallaxLayer>
