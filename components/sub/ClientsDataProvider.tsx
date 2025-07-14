@@ -5,14 +5,14 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
 
-interface Props {
+interface ClientsDataProviderProps {
   src: string;
   width: number;
   height: number;
   index: number;
 }
 
-const ClientsDataProvider = ({ src, width, height, index }: Props) => {
+const ClientsDataProvider: React.FC<ClientsDataProviderProps> = ({ src, width, height, index }) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
   });
@@ -34,7 +34,6 @@ const ClientsDataProvider = ({ src, width, height, index }: Props) => {
     >
       <Image src={src} width={width} height={height} alt="skill image" />
     </motion.div>
-    
   );
 };
 
