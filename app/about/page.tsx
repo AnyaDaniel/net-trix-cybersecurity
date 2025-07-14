@@ -9,7 +9,7 @@ import Herosub from "@/components/about/sub/Herosub";
 import Vision from "@/components/about/main/Vision";
 import Philosophy from "@/components/about/sub/Philosophy";
 import Carousel from "@/components/about/main/Carousel";
-import Clients from "@/components/main/Clients";
+// import Clients from "@/components/main/Clients";
 import CarouselSection from "@/components/main/CarouselSection";
 import Choose from "@/components/main/Choose";
 import Newsletter from "@/components/main/Newsletter";
@@ -97,14 +97,14 @@ const About = () => {
         
         {/* others */}
         {isTablet?(<ParallaxLayer offset={3.6}>
-            <Clients />
+            {/* <Clients /> */}
             <CarouselSection />
             <Choose />
             <Newsletter />
             <Footer />
         </ParallaxLayer>):(
             <div>
-                <Clients />
+                {/* <Clients /> */}
             <CarouselSection />
             <Choose />
             <Newsletter />

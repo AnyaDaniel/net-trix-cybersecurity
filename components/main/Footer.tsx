@@ -57,26 +57,26 @@ const Footer = () => {
           <div className=" h-auto pt-5 md:pt-0 flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Reach Us</div>
             <p className="flex flex-row items-center my-[16px]">
-            <FaPhone />
-              <span className="text-[15px] ml-[6px]">+234 906 000 0456</span>
+            {/* <FaPhone /> */}
+              <span className="text-[15px] ml-[6px]"></span>
             </p>
             <p className="flex flex-row items-center my-[16px]">
             <FaEnvelope />
               <span className="text-[15px] ml-[6px]">
-                INFO@NET-TRIXSOLUTIONS.COM
+                info@net-trix.ca
               </span>
             </p>
             <p className="flex flex-row items-center my-[16px]">
             <FaGlobe />
               <span className="text-[15px] ml-[6px]">
-                WWW.NET-TRIXSOLUTIONS.COM
+                www.net-trix.ca
               </span>
             </p>
           </div>
         </div>
 
         <div className="mt-[30px] text-[15px] text-center">
-          &copy; Net-Trix Solutions 2024 Inc. All rights reserved
+          &copy; Net-Trix Solutions 2025 Inc. All rights reserved
         </div>
       </div>
     </div>

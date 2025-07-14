@@ -3,7 +3,7 @@ import Training from "@/components/services/main/Training";
 import DataResponsibility from "@/components/services/main/DataResponsibility";
 import Hero from "@/components/services/main/Hero";
 import CarouselSection from "@/components/main/CarouselSection";
-import Clients from "@/components/main/Clients";
+// import Clients from "@/components/main/Clients";
 import Footer from "@/components/main/Footer";
 import Navbar from "@/components/main/Navbar";
 import Solution from "@/components/main/Solution";
@@ -268,7 +268,7 @@ const Services = () => {
             <Compliance />
             <Incident />
             <Soc />
-            <Clients />
+            {/* <Clients /> */}
             <CarouselSection />
             <Choose />
             <Newsletter />
@@ -279,7 +279,7 @@ const Services = () => {
             <Compliance />
             <Incident />
             <Soc />
-            <Clients />
+            {/* <Clients /> */}
             <CarouselSection />
             <Choose />
             <Newsletter />

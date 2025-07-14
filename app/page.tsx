@@ -1,7 +1,7 @@
 "use client";
 import Encryption from "@/components/main/Encryption";
 import Hero from "@/components/main/Hero";
-import Clients from "@/components/main/Clients";
+// import Clients from "@/components/main/Clients";
 import CarouselSection from "@/components/main/CarouselSection";
 import Solution from "@/components/main/Solution";
 import Navbar from "@/components/main/Navbar";
@@ -153,7 +153,7 @@ export default function Home() {
           {/* trust, clients, carouselsection, choose, newsletter, footer sections */}
           <ParallaxLayer offset={8.7}>
             <Trust />
-            <Clients />
+            {/* <Clients /> */}
             <CarouselSection />
             <Choose />
             <Newsletter />
@@ -224,7 +224,7 @@ export default function Home() {
           <Solution />
           {/* trust, clients, carouselsection, choose, newsletter, footer sections */}
           <Trust />
-          <Clients />
+          {/* <Clients /> */}
           <CarouselSection />
           <Choose />
           <Newsletter />

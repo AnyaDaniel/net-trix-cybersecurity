@@ -33,27 +33,31 @@ const Contact = () => {
                   <div className="bg-[url('/socials.jpg')] bg-cover rounded-xl h-full md:w-[40%] p-10 text-white">
                     <h1 className="text-3xl mb-14">Contact Information</h1>
                     <p className="flex flex-row items-center my-8">
-                      <FaPhone />
+                      {/* <FaPhone /> */}
                       <span className="text-sm ml-[6px]">
-                        +234 906 000 0456
+                        
                       </span>
                     </p>
                     <p className="flex flex-row items-center my-8">
                       <FaEnvelope />
                       <span className="text-sm ml-[6px]">
-                        INFO@NET-TRIXSOLUTIONS.COM
+                        info@net-trix.ca
                       </span>
                     </p>
                     <p className="flex flex-row items-center my-8">
                       <FaGlobe />
                       <span className="text-sm ml-[6px]">
-                        WWW.NET-TRIXSOLUTIONS.COM
+                        www.net-trix.ca
                       </span>
                     </p>
                     <p className="flex flex-row items-center my-8">
                       <FaLocationDot />
                       <span className="text-sm ml-[6px]">
-                        SUITE 201, THE KINGS PLAZA, PLOT 307, AHMADU BELLO WAY,
+                        Saskatoon SK S7W1H1 Canada
+                      </span>
+                      <br />
+                      <span className="text-sm ml-[6px]">
+                        Suit 201, The Kings Plaza, Plo7 307, Ahmadu Bello Way,
                         ABUJA
                       </span>
                     </p>
@@ -129,27 +133,31 @@ const Contact = () => {
                   <div className="bg-[url('/socials.jpg')] bg-cover rounded-xl h-full md:w-[40%] p-10 text-white">
                     <h1 className="text-3xl mb-14">Contact Information</h1>
                     <p className="flex flex-row items-center my-8">
-                      <FaPhone />
+                      {/* <FaPhone /> */}
                       <span className="text-sm ml-[6px]">
-                        +234 906 000 0456
+                        
                       </span>
                     </p>
                     <p className="flex flex-row items-center my-8">
                       <FaEnvelope />
                       <span className="text-sm ml-[6px]">
-                        INFO@NET-TRIXSOLUTIONS.COM
+                        info@net-trix.ca
                       </span>
                     </p>
                     <p className="flex flex-row items-center my-8">
                       <FaGlobe />
                       <span className="text-sm ml-[6px]">
-                        WWW.NET-TRIXSOLUTIONS.COM
+                        www.net-trix.ca
                       </span>
                     </p>
                     <p className="flex flex-row items-center my-8">
                       <FaLocationDot />
+                     <span className="text-sm ml-[6px]">
+                        Saskatoon SK S7W1H1 Canada
+                      </span>
+                      <br />
                       <span className="text-sm ml-[6px]">
-                        SUITE 201, THE KINGS PLAZA, PLOT 307, AHMADU BELLO WAY,
+                        Suit 201, The Kings Plaza, Plo7 307, Ahmadu Bello Way,
                         ABUJA
                       </span>
                     </p>
