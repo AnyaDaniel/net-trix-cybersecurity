@@ -11,6 +11,12 @@ import ClientsDataProvider from "../sub/ClientsDataProvider";
 import ClientsText from "../sub/ClientsText";
 import PartnerText from "../sub/PartnerText";
 
+type ClientImage = {
+  Image: string;
+  width: number;
+  height: number;
+};
+
 const Clients = () => {
   return (
     <div
@@ -19,7 +25,7 @@ const Clients = () => {
     >
       <ClientsText />
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {First_client.map((image, index) => (
+        {First_client.map((image: ClientImage, index: number) => (
           <ClientsDataProvider
             key={index}
             src={image.Image}
@@ -30,7 +36,7 @@ const Clients = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Second_client.map((image, index) => (
+        {Second_client.map((image: ClientImage, index: number) => (
           <ClientsDataProvider
             key={index}
             src={image.Image}
@@ -41,7 +47,7 @@ const Clients = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Third_client.map((image, index) => (
+        {Third_client.map((image: ClientImage, index: number) => (
           <ClientsDataProvider
             key={index}
             src={image.Image}
@@ -52,7 +58,7 @@ const Clients = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Forth_client.map((image, index) => (
+        {Forth_client.map((image: ClientImage, index: number) => (
           <ClientsDataProvider
             key={index}
             src={image.Image}
@@ -63,7 +69,7 @@ const Clients = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Other_client.map((image, index) => (
+        {Other_client.map((image: ClientImage, index: number) => (
           <ClientsDataProvider
             key={index}
             src={image.Image}
@@ -90,7 +96,7 @@ const Clients = () => {
 
       <PartnerText />
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Fifth_client.map((image, index) => (
+        {Fifth_client.map((image: ClientImage, index: number) => (
           <ClientsDataProvider
             key={index}
             src={image.Image}
